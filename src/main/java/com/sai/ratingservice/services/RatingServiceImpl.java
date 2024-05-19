@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.sai.ratingservice.entities.Rating;
 import com.sai.ratingservice.repositories.RatingRepository;
-import com.sai.ratingservice.services.Exception.ResourceNotFoundExcepiton;
 
 @Service
 public class RatingServiceImpl implements RatingService{
